@@ -1,0 +1,84 @@
+table 
+{
+    width: auto;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+table th  
+{
+    border: 4px solid;
+}
+
+table td 
+{
+    border: 1px solid;
+}
+
+table .Header 
+{
+    background-color: rgb(226, 239, 218);
+    border-bottom: 4px solid;
+}
+
+table .LHead, table .day, table .lecture, table .Fweek, table .Sweek 
+{
+    background-color: rgb(217, 225, 242);
+}
+
+table .day 
+{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    padding: 15px;
+}
+
+table .lecture 
+{
+    border: 1px solid;
+    width: 0;
+}
+
+table .auditoriya 
+{
+    text-align: center;
+    border-style: solid dashed;
+}
+
+table .Fweek, table .Sweek 
+{
+    width: 1px;
+}
+
+table .FLec, table .SLec 
+{
+    white-space: pre-wrap;
+}
+
+table .Fweek, table .FLec 
+{
+    border-top: 1px solid;
+    border-bottom: dotted thin;
+}
+
+table .Sweek, table .SLec 
+{
+    border-top: dotted thin;
+    border-bottom: 1px solid;
+}
+
+table #group 
+{
+    border-top: 4px solid;
+    border-right: solid thin;
+}
+
+table #curator 
+{
+    border: solid thin;
+}
+caption
+{
+    font-size: x-large;
+}

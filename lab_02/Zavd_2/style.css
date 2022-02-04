@@ -1,0 +1,23 @@
+.table td, .table th
+{
+  border: #6395ff solid 1px;
+  padding: 5px 10px;
+}
+
+.table
+{
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.table thead
+{
+    background-color: #dae1f8;
+}
+
+.table tfoot
+{
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
