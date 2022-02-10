@@ -1,0 +1,25 @@
+div.component
+{
+    width: 240px;
+    background: rgb(144, 149, 255);
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.name
+{
+    text-align: center;
+}
+
+div.characters
+{
+    text-align: center;
+    font-size:15px;
+}
