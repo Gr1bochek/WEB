@@ -1,0 +1,39 @@
+div.buttons
+{
+    text-align: center;
+    margin: 20px;
+}
+
+button.confirm
+{
+    position: relative;
+    left: 220px;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    border-color:cornflowerblue;
+    color: rgb(137, 164, 214);
+}
+
+button.delete
+{
+    border-radius: 10px;
+    height: 25px;
+    width: 80px;
+    border-color:red;
+    color: red;
+    margin-left: 20px;
+}
+
+button.delete:hover
+{
+    background: rgb(173, 90, 118);
+    border-color: rgb(130, 55, 80);
+    color: black;
+}
+
+button.edit:hover
+{
+background: rgb(60, 118, 226);
+    color: blue;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/buttons.css">
+</head>
+<body>
+    
+<button>Редагувати</button>
+
+<div class="modal">
+    <div class="overlay"></div>
+    <div class="modal-window">
+
+        <div>
+            <h3 class="Heder">TV properties</h3>
+            <button class="button-close-modal">X</button>
+            <hr>
+        </div>
+<br>
+        <div>
+            <label class="maker" for="TVmaker">Виробник телевізора:</label>
+            <br>
+            <input class="maker1" id="TVmaker" type="text" placeholder="Введіть виробника..." required>   
+        </div>
+<br>
+        <div>
+            <label class="diagonal" for="TVdiagonal">Діагональ/дюйми телевізора:</label>
+            <br>
+            <input class="diagonal1" id="TVdiagonal" type="text" placeholder="Введіть діагональ/дюйми..." required> 
+        </div>
+<br>
+        <div>
+            <label class="pixels" for="TVpixels">Роздільна здатність телевізора:</label>
+            <br>
+            <input class="pixels1" id="TVpixels" type="text" placeholder="Введіть роздільну здатність..." required> 
+        </div>
+<br>
+        <div>
+            <label class="selector" for="TVmodel">Модель телевізора:</label><br>
+            <select class="selector1" id="TVmodel" name="TV" >
+                <option value="samsung">Samsung QE55Q60AAUXUA</option>
+                <option value="lg">LG OLED65A16AL</option>
+                <option value="hisense">Hisense 55E76GQ</option>
+                <option value="sony">Sony XR65A90JCEP</option>
+            </select>
+        </div>
+<br>
+        <div>
+            <input class="smart" type="checkbox" value="1">
+            <label class="smart1" style="vertical-align: 1px; cursor: pointer;">Smart TV</label>
+        </div>
+<br>        
+        <div >
+            <input class="imgpos" type="image" for="inputTVImage" id="TVimage"> <br>
+			<label class="brek" for="inputTVImage">Select image file:<br>
+			<input type="file" id="inputTVImage" class="modalInputProperty" onchange=showImage(this)>
+        </div>
+<br>
+        <div>
+            <button class="confirm">Confirm</button>
+        </div>  
+    </div>
+</div>
+
+</body>
+</html>
