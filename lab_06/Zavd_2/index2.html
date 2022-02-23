@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+        header,menu,content,aside,footer
+        {
+            border: 3px solid blue;
+            padding:60px;
+            background-color: cornflowerblue;
+            font-size: 55px;
+            color: white;
+            margin:10px;
+            text-align: center;
+        }
+
+        content
+        {
+            float: left;
+            margin-right: 0;
+            width: 41.8%;
+        }
+        aside
+        {
+            float: right;
+            margin-left: 0;
+            width: 42.2%;
+        }
+        footer
+        {
+            clear: both;
+        }
+        .clearfix:after
+        {
+            content:"";
+            clear:both;
+            display:table;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>Заголовок</header>
+        <menu>Меню</menu>
+        <content>Вміст</content>
+        <aside>Додаткова секція</aside>
+        <footer>Нижній колонтитул</footer>
+    </div>
+      
+</body>
+</html>
