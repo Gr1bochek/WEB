@@ -1,0 +1,31 @@
+.retro, .spadok {
+  display: block;
+  color: #0982c1;
+  border: 1px dotted #0982c1;
+  max-width: 1024px;
+}
+
+.first {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.first .text1 {
+  color: darkred;
+}
+.first .text2 {
+  color: green;
+}
+
+button {
+  background-color: forestgreen;
+  height: 50px;
+  width: 100px;
+  border: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ad5a76;
+  border-color: #823750;
+  color: black;
+}

@@ -1,0 +1,45 @@
+$mainColor: #0982c1;
+$siteWidth: 1024px;
+$borderStyle: dotted;
+
+.retro {
+    display: block;
+    color: $mainColor;
+    border: 1px $borderStyle $mainColor;
+    max-width: $siteWidth;
+}
+
+.first {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    .text1 {
+        color: darkred;
+    }
+
+    .text2 {
+        color: green;
+    }
+}
+
+@mixin hover {
+    background: rgb(173, 90, 118);
+    border-color: rgb(130, 55, 80);
+    color: black;
+}
+
+button {
+    background-color: forestgreen;
+    height: 50px;
+    width: 100px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    @include hover();
+}
+
+.spadok {
+    @extend .retro;
+}
